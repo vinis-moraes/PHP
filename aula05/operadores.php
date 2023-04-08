@@ -9,14 +9,16 @@
 </head>
 <body>
     <?php
-    $n1 = 3;
-    $n2 = 2;
+    $n1 = $_GET["a"];
+    $n2 = $_GET["b"];
+    $m = ($n1+$n2) / 2;
     echo "O primeiro número é $n1 e o segundo número é $n2 <br>";
     echo "A soma vale ". ($n1+$n2). ".<br>" ;
     echo "A subtração vale ". ($n1-$n2). ".<br>";
     echo "A multiplicação vale ". ($n1*$n2). ".<br>";
     echo "A divisão vale ". ($n1/$n2). ".<br>";
     echo "O resto da divisão vale ". ($n1%$n2). ".<br>";
+    echo "A média entre os valores é $m";
     ?>
 </body>
 </html>
