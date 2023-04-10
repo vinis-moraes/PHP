@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulários</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <h1>Formulários</h1>
+
     <div>
-        <?php
-            $n = 4; // Inteiro
-            $no = "Gustavo"; // String
-            $nf = 4.5; // Float
-            echo "$no $n $nf";
-        ?>
+        <form action="ex009.php" method="get">
+            <label for="valor">Valor: <input type="number" name="v" id="v"></label>
+            <input type="submit" id="submit" value="Calcular Raíz">
+        </form>
     </div>
 </body>
 </html>

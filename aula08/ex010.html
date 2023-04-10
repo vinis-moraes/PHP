@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <div>
+        <form action="ex010.php" method="get">
+            <label for="nome"><p>Nome</p><input type="text" name="nome" id="nome"></label>
+            <label for="ano"><p>Ano de Nascimento</p><input type="number" name="ano" id="ano"></label>
+            <fieldset id="divisao"><legend>Sexo</legend>
+            <input type="radio" checked value="homem" name="sexo" id="mas">
+            <label for="mas">Masculino</label>
+            <input type="radio" value="mulher" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+            </fieldset> <br>
+            <input id="submit" type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
