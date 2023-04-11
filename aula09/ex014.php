@@ -16,7 +16,7 @@
             
             $media = ($n1 + $n2) / 2;
             echo "A média foi $media <br>";
-            if ($media > 7) {
+            if ($media >= 7) {
                 echo "Aprovado";
             } elseif ($media >= 5) {
                 echo "Recuperação";
