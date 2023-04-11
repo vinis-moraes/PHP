@@ -82,7 +82,7 @@ label p{
     display: inline-block;
 }
 
-input#nome, input#ano{
+input#nome, input#ano, input[type="text"], input[type="number"]{
     border-radius: 20px;
     border: none;
     padding: 10px;
